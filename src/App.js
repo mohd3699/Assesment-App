@@ -15,15 +15,15 @@ function App() {
     <div>
       <Router>
         <Switch>
-          <Redirect exact path={pagePaths.root} to={pagePaths.login} />
+          {/* <Redirect exact path={pagePaths.root} to={pagePaths.login} /> */}
 
           <Route path={pagePaths.login} component={Login} />
 
-          <Route path={pagePaths.firstassesmentselect} component={FirstAssesmentselect} />
+          {/* <Route path={pagePaths.firstassesmentselect} component={FirstAssesmentselect} />
           <Route path={pagePaths.firstassesment} component={FirstAssesment} />
           <Route path={pagePaths.header} component={Header} />
 
-          <Route path={pagePaths.result} component={Result} />
+          <Route path={pagePaths.result} component={Result} /> */}
           <Route component={PageNotFound} />
 
         </Switch>
