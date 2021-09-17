@@ -24,7 +24,7 @@ function App() {
           <Route path={pagePaths.header} component={Header} />
 
           <Route path={pagePaths.result} component={Result} /> */}
-          <Route path="*" component={PageNotFound} />
+          <Route component={PageNotFound} />
 
         </Switch>
       </Router>
