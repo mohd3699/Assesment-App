@@ -6,7 +6,7 @@ import Header from './Component/Header';
 import Result from './Pages/Result/Result';
 import Login from './Pages/Login-page/indes';
 import FirstAssesmentselect from './Pages/Select-an-assesment';
-import PageNotFound from './Pages/PageNotFound';
+import PageNotFound from './Pages/PageNotFound/index';
 
 
 
