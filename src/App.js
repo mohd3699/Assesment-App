@@ -17,7 +17,7 @@ function App() {
         <Switch>
           {/* <Redirect exact path={pagePaths.root} to={pagePaths.login} /> */}
 
-          {/* <Route path={pagePaths.login} component={Login} /> */}
+          <Route exact path={pagePaths.root} component={Login} />
 
           {/* <Route path={pagePaths.firstassesmentselect} component={FirstAssesmentselect} />
           <Route path={pagePaths.firstassesment} component={FirstAssesment} />
@@ -25,7 +25,7 @@ function App() {
 
           <Route path={pagePaths.result} component={Result} /> */}
           {/* <Route component={PageNotFound} /> */}
-          <Route path="*/*" component={PageNotFound} />
+          <Route path="*" component={PageNotFound} />
 
         </Switch>
       </Router>
