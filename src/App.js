@@ -18,13 +18,12 @@ function App() {
           {/* <Redirect exact path={pagePaths.root} to={pagePaths.login} /> */}
 
           <Route exact path={pagePaths.root} component={Login} />
-
-          {/* <Route path={pagePaths.firstassesmentselect} component={FirstAssesmentselect} />
+          <Redirect path={pagePaths.login} to={pagePaths.root} />
+          <Route path={pagePaths.firstassesmentselect} component={FirstAssesmentselect} />
           <Route path={pagePaths.firstassesment} component={FirstAssesment} />
           <Route path={pagePaths.header} component={Header} />
+          <Route path={pagePaths.result} component={Result} />
 
-          <Route path={pagePaths.result} component={Result} /> */}
-          {/* <Route component={PageNotFound} /> */}
           <Route path="*" component={PageNotFound} />
 
         </Switch>
